@@ -86,7 +86,7 @@ class RegexTokenizer(Tokenizer):
         
         # Store the merges and rebuild vocab
         self.merges = merges
-        self.vocab = self._build_vocab()  
+        self.vocab = self._build_vocab()
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int

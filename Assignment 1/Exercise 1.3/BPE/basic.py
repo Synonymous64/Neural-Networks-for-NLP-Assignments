@@ -39,7 +39,8 @@ class BasicTokenizer(Tokenizer):
         
         # Track merges as we build the vocabulary
         merges = {}
-        vocab = {idx: bytes([idx]) for idx in range(256)}
+        vocab = {idx: bytes([idx]) for idx in range(256)} 
+        # {0: 'A', 1: 'B }
         
         for i in range(num_merges):
             # Get statistics on consecutive pairs
