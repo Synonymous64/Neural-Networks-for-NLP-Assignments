@@ -62,6 +62,22 @@ Neural-Networks-for-NLP-Assignments/
                 ├── basic.vocab            # Basic tokenizer vocabulary
                 ├── regex.model            # Trained regex tokenizer
                 └── regex.vocab            # Regex tokenizer vocabulary
+
+└── Assignment 2/
+    │
+    ├── Exercise 2 Question/
+    │   └── main1.tex
+    │
+    └── Tutorial 2/
+        ├── resumes_test.csv
+        ├── resumes_train.csv
+        ├── resumes.csv
+        ├── test_word2vec.py
+        ├── tutorial2_task1.py
+        ├── tutorial2_task2.py
+        ├── tutorial2_task3.py
+        ├── tutorial2.ipynb
+        └── tutorial2.txt
 ```
 
 
@@ -78,4 +94,4 @@ This repository is for educational purposes.
 
 ---
 
-**Last Updated:** November 2025
+**Last Updated:** December 7, 2025
